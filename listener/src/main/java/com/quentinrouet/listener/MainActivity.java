@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -28,6 +29,13 @@ public class MainActivity extends AppCompatActivity implements OiseauAdapter.OnO
         rvOiseaux.setAdapter(adapter);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        //getMenuInflater().inflate(R.menu.monSuperMenu,menu);
+        return super.onCreateOptionsMenu(menu);
+
+    }
+
     //Que faire lors d'un clic sur un oiseau
     //le clic sur oiseau a été délégué à l'activité
     @Override
@@ -35,5 +43,7 @@ public class MainActivity extends AppCompatActivity implements OiseauAdapter.OnO
         Toast.makeText(this,
                 "C'est moi, je suis oiseau "+oiseau.famille,
                 Toast.LENGTH_SHORT).show();
+        //J'affiche la page wiki
+        //J'affiche des infos supplémentaires dans une autre page
     }
 }
