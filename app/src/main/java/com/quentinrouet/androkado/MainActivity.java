@@ -16,12 +16,13 @@ import com.quentinrouet.androkado.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String CLE_ARTICLE = "article";
+    public static final String CLE_ARTICLE = "macleArticle";
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ActivityMainBinding binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
+        binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
 
         Article croissant = new Article(
                 "Croissant",
@@ -31,12 +32,9 @@ public class MainActivity extends AppCompatActivity {
                 4.0f,
                 false
         );
-
         binding.setArticle(croissant);
 
-        ImageButton ibUrl = findViewById(R.id.imageButtonUrl);
-        TextView textView = findViewById(R.id.textViewPrix);
-        ibUrl.setOnClickListener((View view)->{
+        binding.imageButtonUrl.setOnClickListener((View view)->{
             onClickButtonUrl(view,croissant);
         });
     }

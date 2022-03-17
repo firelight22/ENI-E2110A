@@ -6,7 +6,8 @@ import android.os.Parcelable;
 /**
  * Created by quentin for Androkado on 16/03/2022.
  */
-public class Article implements Parcelable {
+public class Article implements Parcelable{
+
    String nom, url, description;
    float prix, note;
    boolean isAchete;
@@ -21,6 +22,7 @@ public class Article implements Parcelable {
    }
 
    public Article() { }
+
 
    protected Article(Parcel in) {
       nom = in.readString();
