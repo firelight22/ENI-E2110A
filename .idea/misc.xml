@@ -10,6 +10,9 @@
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.6021827415183739" />
         <entry key="app/src/main/res/layout/fragment_concession.xml" value="0.39166666666666666" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.365" />
+        <entry key="fragments/src/main/res/layout/activity_main.xml" value="0.3776041666666667" />
+        <entry key="fragments/src/main/res/layout/fragment_button.xml" value="0.39166666666666666" />
+        <entry key="fragments/src/main/res/layout/fragment_texte.xml" value="0.39166666666666666" />
         <entry key="listener/src/main/res/layout/activity_main.xml" value="0.3776041666666667" />
         <entry key="listener/src/main/res/layout/oiseau_line.xml" value="0.39166666666666666" />
       </map>
