@@ -16,3 +16,4 @@ rootProject.name = "Androkado"
 include ':app'
 include ':listener'
 include ':fragments'
+include ':library'

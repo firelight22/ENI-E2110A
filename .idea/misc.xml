@@ -6,9 +6,10 @@
         <entry key="app/src/main/res/drawable/ic_baseline_public_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_duck.xml" value="0.36844085693359396" />
         <entry key="app/src/main/res/layout/activity_info_url.xml" value="0.30833333333333335" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2787399291992188" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31224060058593756" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.6021827415183739" />
         <entry key="app/src/main/res/layout/fragment_concession.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.5918141682942709" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.365" />
         <entry key="fragments/src/main/res/layout/activity_main.xml" value="0.3776041666666667" />
         <entry key="fragments/src/main/res/layout/fragment_button.xml" value="0.39166666666666666" />
